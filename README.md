@@ -19,7 +19,7 @@ Each client application is consist of two component :
 -business aggregation and business logic (ex: “PubSub.Client.Model” & PubSub.Publisher.Model”)
 - View and View Model (ex: “PubSub.Client” & PubSub.Publisher)
  The client and Publisher programs are WPF Application developed by:
- - WPF
--  MVVM 
-- Prism 
-- Prism Event Aggregator
+  - WPF
+  -  MVVM 
+  - Prism 
+  - Prism Event Aggregator
