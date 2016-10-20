@@ -1,6 +1,8 @@
 # Publish/Subscribe Pattern
 Design Patterns: List-Based Publish-Subscribe
 
+One of the key aspects of a publisher/subscriber pattern is that there should be ultra-loose coupling between the publisher and the subscriber. Critically, the publisher should not know anything about the subscribers, including how many there are or where they live. 
+
 The Publish-Subscribe pattern passes information to a collection of recipients who have subscribed to an information topic.
 List-based publish-subscribe maintains a list of subscribers. When there is information to share, a copy is sent to each subscriber on 
 the list. This sample demonstrates a dynamic list-based publish-subscribe pattern, where clients can subscribe or unsubscribe as often
