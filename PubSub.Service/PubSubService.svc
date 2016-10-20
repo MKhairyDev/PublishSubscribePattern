@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" CodeBehind="PubSubService.svc.cs" 
+       Service="PubSub.Service.PubSubService, PubSub.Service"  
+    Factory="Autofac.Integration.Wcf.AutofacServiceHostFactory, Autofac.Integration.Wcf" %>
