@@ -1,4 +1,4 @@
-# PublishSubscribePattern
+# Publish/Subscribe Pattern
 Design Patterns: List-Based Publish-Subscribe
 
 The Publish-Subscribe pattern passes information to a collection of recipients who have subscribed to an information topic.
