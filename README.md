@@ -17,7 +17,7 @@ Event Aggregator and the service is a WCF library (.dll) hosted in Internet Info
 
 The service uses duplex communication. The IPubSubContract service contract is paired up with an IPubSubClientCallback callback contract. The service implements subscribe and Unsubscribe service operations, which clients use to join or leave the list of subscribers . The service also implements the PublishNewStore service operation, which the Publisher program calls to provide the service with new information. The client program implements the NewStoreCreated service operation, which the service calls to notify all subscribers of a price change.
 
-we use channel factory to construct the channel because we do not need to change channel factory code when there is a change in data contract, service contract and callback contract.  Here to use Channel Factory to construct channel between server and publisher/subscriber, all the contracts are kept in a separate DLL that is shared by server, publisher and Subscribe. 
+I'm using channel factory to construct the channel because I do not need to change channel factory code when there is a change in data contract, service contract and callback contract.  Here to use Channel Factory to construct channel between server and publisher/subscriber, all the contracts are kept in a separate DLL that is shared by server, publisher and Subscribe. 
 
 Each client application is consist of two component :
 -business aggregation and business logic (ex: “PubSub.Client.Model” & PubSub.Publisher.Model”)
